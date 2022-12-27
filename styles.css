@@ -83,7 +83,7 @@ header {
   width: 700px;
   height: 500px;
   object-fit: cover;
-  text-align: center;
+  margin-inline: auto;
 }
 header .profile-image {
   margin-top: 50px;
