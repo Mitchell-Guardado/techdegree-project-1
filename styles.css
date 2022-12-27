@@ -80,10 +80,10 @@ header {
   padding-top: 60px;
 }
 .skate-pic {
-  width: 600px;
+  width: 700px;
   height: 500px;
   object-fit: cover;
-  align-items: center;
+  text-align: center;
 }
 header .profile-image {
   margin-top: 50px;
