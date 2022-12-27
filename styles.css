@@ -72,6 +72,19 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+.hobbies {
+  text-align: center;
+  background: url('images/skate.jpg') no-repeat center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.skate-pic {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  align-items: center;
+}
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -81,7 +94,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -98,7 +111,7 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 800px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
